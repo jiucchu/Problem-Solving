@@ -16,5 +16,6 @@
 ### 🚀 Silver
 | 문제번호 | 링크 |
 | ----- | ----- |
+|1325. 효율적인 해킹|[링크](./%EB%B0%B1%EC%A4%80/Silver/1325.%E2%80%85%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%E2%80%85%ED%95%B4%ED%82%B9/%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%E2%80%85%ED%95%B4%ED%82%B9.java)|
 |16564. 히오스 프로게이머|[링크](./%EB%B0%B1%EC%A4%80/Silver/16564.%E2%80%85%ED%9E%88%EC%98%A4%EC%8A%A4%E2%80%85%ED%94%84%EB%A1%9C%EA%B2%8C%EC%9D%B4%EB%A8%B8/README.md)|
 |1991. 트리 순회|[링크](./%EB%B0%B1%EC%A4%80/Silver/1991.%E2%80%85%ED%8A%B8%EB%A6%AC%E2%80%85%EC%88%9C%ED%9A%8C/README.md)|
