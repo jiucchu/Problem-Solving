@@ -9,29 +9,26 @@ times = 24 * n
 defaults = list(map(int, input().split()))
 addtions = list(map(int, input().split()))
 
-total = [(-addtions[i], 100 - defaults[i]) for i in range(m)]
-heapify(total)
+total = [(-addtions[i], defaults[i]) for i in range(m)]
+
 answer = sum(defaults)
+heapify(total)
 
 while(total) :
-    addition, remain = heappop(total)
+    addition, d = heappop(total)
     addition = -addition
     
+    s = d
     if (times <= 0) :
         continue
     
-    t = remain // addition
+    while (s <= 100 - addition and times > 0) :
+        answer += addition
+        s += addition
+        times -= 1
+
     
-    if ( t <= times ) :
-        answer += t * addition
-        times -= t
-
-        new_remain = remain - t * addition
-        if (new_remain > 0):
-            heappush(total, (-new_remain, new_remain))
-
-    else : 
-        answer += times * addition
-        times = 0
+    if (s < 100):
+        heappush(total, (-(100-s), s))
 
 print(answer)
